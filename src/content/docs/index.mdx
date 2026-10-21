@@ -1,0 +1,56 @@
+---
+title: SherDore Docs
+description: Guides and reference for your SherDore account and every SherDore product.
+template: splash
+hero:
+  tagline: One SherDore account, one sign-in, and a set of tools for running your business online. Start here to set up your account and learn each product.
+  actions:
+    - text: Create your account
+      link: /getting-started/create-an-account/
+      icon: right-arrow
+    - text: Browse products
+      link: /products/
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Start here
+
+<CardGrid>
+	<Card title="Create an account" icon="rocket">
+		Sign up once at accounts.sherdore.com and use the same login for every product.
+	</Card>
+	<Card title="Free trials" icon="star">
+		Every product has a free trial on its entry plan. No card needed to start.
+	</Card>
+	<Card title="Plans and billing" icon="document">
+		How payment, renewal, upgrades and cancelling work.
+	</Card>
+	<Card title="Your team" icon="user">
+		Organizations, members and roles.
+	</Card>
+</CardGrid>
+
+## Products
+
+<CardGrid>
+	<Card title="Uptime" icon="approve-check-circle">
+		Website, SSL and domain-expiry monitoring with a public status page. [Read the guide](/products/uptime/)
+	</Card>
+	<Card title="Verification" icon="approve-check">
+		A real-time email verification API. [Read the guide](/products/verification/)
+	</Card>
+	<Card title="Backup" icon="download">
+		Off-site backups of your website files and database. [Read the guide](/products/backup/)
+	</Card>
+	<Card title="Shield" icon="warning">
+		Website security monitoring and scoring. [Read the guide](/products/shield/)
+	</Card>
+	<Card title="HVAC" icon="setting">
+		Field service software for HVAC businesses. [Read the guide](/products/hvac/)
+	</Card>
+	<Card title="ERP" icon="puzzle">
+		A shared operations platform across SherDore's industry modules. [Read the guide](/products/erp/)
+	</Card>
+</CardGrid>

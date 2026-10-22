@@ -1,11 +1,11 @@
 ---
 title: Uptime
-description: Website, SSL and domain-expiry monitoring with incidents and a public status page.
+description: Website, SSL and domain-expiry monitoring with incidents and public status pages.
 sidebar:
   order: 1
 ---
 
-SherDore Uptime checks your websites every few minutes, records every outage as an incident, and tracks SSL certificate and domain expiry. It can publish a status page for your customers.
+SherDore Uptime checks your websites every few minutes, records every outage as an incident, and tracks SSL certificate and domain expiry. It can publish status pages for your customers.
 
 Open it at [uptime.sherdore.com](https://uptime.sherdore.com), signed in with your SherDore account.
 
@@ -16,7 +16,8 @@ Open it at [uptime.sherdore.com](https://uptime.sherdore.com), signed in with yo
 - **Domain expiry.** Domain renewal dates are watched too. Checked once a day.
 - **Incidents.** An outage, an expiring certificate or an expiring domain opens an incident, and it closes when the problem clears. Every incident has a timeline you can add notes to, and you can resolve it by hand.
 - **Maintenance windows.** Record planned work per site, with a title, description and start and end times.
-- **Status page.** Share a page with your own title and address, showing each site as operational, degraded, down or in maintenance.
+- **Status pages.** Share one or more pages showing each site as operational, degraded, down or in maintenance. See [Status pages](/products/uptime/status-pages/).
+- **Posted incidents.** Tell your customers what's happening, in your own words. See [Post an incident](/products/uptime/posted-incidents/).
 - **Alerts.** Get notified by email, Slack or a webhook. See [Alerts](/products/uptime/alerts/).
 - **Team.** Invite teammates as owners, admins or read-only members. See [Team and roles](/products/uptime/team-and-roles/).
 
@@ -34,5 +35,6 @@ When you reach your plan's website limit, adding another site is refused until y
 
 - [Monitor a website](/products/uptime/monitoring/)
 - [Status pages](/products/uptime/status-pages/)
+- [Post an incident](/products/uptime/posted-incidents/)
 - [Alerts](/products/uptime/alerts/)
 - [Team and roles](/products/uptime/team-and-roles/)

@@ -2,18 +2,18 @@
 title: Team and roles
 description: Invite teammates to Uptime and choose their role.
 sidebar:
-  order: 5
+  order: 6
 ---
 
-Everyone on your team sees the same sites, incidents and status page.
+Everyone on your team sees the same sites, incidents and status pages.
 
 ## Roles
 
-| Role | Can |
+| Role | For |
 |---|---|
-| **Owner** | Everything, including the team itself. |
-| **Admin** | Manage sites, incidents and settings. |
-| **Read-only** | View the dashboard. |
+| **Owner** | The person who set the team up. |
+| **Admin** | People who help manage sites, incidents and settings. |
+| **Read-only** | People who just need to see the results. |
 
 ## Invite someone
 

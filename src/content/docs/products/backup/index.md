@@ -1,13 +1,22 @@
 ---
 title: Backup
-description: Off-site backups of your website files and database.
+description: Off-site backups of your website files and WordPress database, with no server access needed.
 sidebar:
   order: 1
 ---
 
-SherDore Backup archives your website's files and its WordPress database with one drop-in PHP file and stores the archives off your server, ready to download. You don't need SSH or server access.
+SherDore Backup archives your website's files and its WordPress database with one drop-in PHP file, and stores the archives away from your server. A bad update, a hack or a hosting failure never leaves you with nothing.
 
 Open it at [backup.sherdore.com](https://backup.sherdore.com), signed in with your SherDore account.
+
+## What it does
+
+- **Files archive.** All of the site's files are packed into one compressed archive and uploaded.
+- **WordPress database.** On WordPress sites the database is dumped and uploaded alongside the files. Other sites back up files only.
+- **Stored off your server.** Archives go straight to cloud storage, separate from your hosting.
+- **One PHP file to install.** No SSH, no plugin and no server credentials. See [Install the agent](/products/backup/install-the-agent/).
+- **Keeps the latest five.** The five most recent completed backups of each site are kept, and older ones are cleaned up after each new one.
+- **Download any time.** Every backup is listed with its status, and each archive downloads with a click.
 
 ## Plans
 
@@ -19,6 +28,8 @@ Open it at [backup.sherdore.com](https://backup.sherdore.com), signed in with yo
 
 When you reach your plan's website limit, adding another site is refused until you upgrade.
 
-## Team
+## Next
 
-Invite teammates from the **Team** page. The member limit above applies, and your account role decides where each person starts, the same as in [Uptime](/products/uptime/team-and-roles/).
+- [Install the agent](/products/backup/install-the-agent/)
+- [Run a backup and download it](/products/backup/run-and-download/)
+- [Limits and restoring](/products/backup/limits-and-restoring/)
